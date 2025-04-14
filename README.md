@@ -9,7 +9,7 @@ Este repositorio contiene la implementación un algoritmo eficiente de mediana m
 - **Ventana deslizante**: Soporte para una ventana de tamaño fijo, eliminando automáticamente los elementos más antiguos cuando se excede el límite.
 - **Rebalanceo automático**: Los montículos se rebalancean automáticamente para garantizar que la diferencia de tamaño entre ellos sea como máximo 1.
 
-## Ejemplo de uso
+## Ejemplo de uso 
 ```
 from monticulo_med import MonticuloMediana
 
