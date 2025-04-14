@@ -61,3 +61,8 @@ monticulo_mediana_movil/
 
 ## Licencia
 Este proyecto está licenciado bajo la licencia MIT. Consulta el archivo LICENSE.md para más detalles.
+
+## DOI
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15214365.svg)](https://doi.org/10.5281/zenodo.15214365)
+
