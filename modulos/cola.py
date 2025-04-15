@@ -1,16 +1,21 @@
 class Cola:
     def __init__(self):
-        """Inicializa una cola vacía."""
+        """
+        Inicializa una cola vacía.
+        """
         self.primero = None
         self.ultimo = None
         self.tamano = 0
     
     def esta_vacia(self):
-        """Verifica si la cola está vacía."""
+        """
+        Verifica si la cola está vacía.
+        """
         return self.primero is None
     
     def insertar(self, reg):
-        """Inserta un nuevo elemento al final de la cola.
+        """
+        Inserta un nuevo elemento al final de la cola.
         
         Args:
             reg: Registro a insertar en la cola.
@@ -25,7 +30,9 @@ class Cola:
         self.tamano += 1
     
     def eliminar(self):
-        """Elimina el primer elemento de la cola y lo devuelve."""
+        """
+        Elimina el primer elemento de la cola y lo devuelve.
+        """
         if self.esta_vacia():
             raise ValueError("La cola está vacía")
         
@@ -40,14 +47,18 @@ class Cola:
         return valor_eliminado
     
     def obtener_primero(self):
-        """Devuelve el primer elemento de la cola sin eliminarlo."""
+        """
+        Devuelve el primer elemento de la cola sin eliminarlo.
+        """
         if self.esta_vacia():
             raise ValueError("La cola está vacía")
         
         return self.primero.dato
     
     def obtener_ultimo(self):
-        """Devuelve el último elemento de la cola sin eliminarlo."""
+        """
+        Devuelve el último elemento de la cola sin eliminarlo.
+        """
         if self.esta_vacia():
             raise ValueError("La cola está vacía")
                 
